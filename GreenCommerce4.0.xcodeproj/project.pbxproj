@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		832D7E9D1FA8CF8F00487FA1 /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832D7E9C1FA8CF8E00487FA1 /* SSASideMenu.swift */; };
+		83373C381F9BF33500F6E1EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837751341F9A5C5900B3A6E6 /* Main.storyboard */; };
+		83373C3A1F9BF33500F6E1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837751391F9A5C5900B3A6E6 /* LaunchScreen.storyboard */; };
+		83373C3B1F9BF33500F6E1EA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8377513C1F9A5C5900B3A6E6 /* Info.plist */; };
+		83373C3D1F9E399C00F6E1EA /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83373C3C1F9E399C00F6E1EA /* APIHandler.swift */; };
+		83373C3F1F9F987500F6E1EA /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83373C3E1F9F987500F6E1EA /* MainMenuVC.swift */; };
+		833A31031FBA37BB005A32E9 /* UserProfileAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A31021FBA37BB005A32E9 /* UserProfileAvatar.swift */; };
+		8343300F1FAA298E00967FAE /* LeftMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8343300E1FAA298E00967FAE /* LeftMenuVC.swift */; };
+		834330111FAA29DC00967FAE /* LeftMenuVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834330101FAA29DC00967FAE /* LeftMenuVCExtension.swift */; };
+		834330141FABA15A00967FAE /* ArticleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834330121FABA15A00967FAE /* ArticleVC.swift */; };
+		834330151FABA15A00967FAE /* ArticleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834330131FABA15A00967FAE /* ArticleVC.xib */; };
+		837751331F9A5C5900B3A6E6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837751321F9A5C5900B3A6E6 /* BaseViewController.swift */; };
+		837751461F9A5C5900B3A6E6 /* GreenCommerce4_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837751451F9A5C5900B3A6E6 /* GreenCommerce4_0Tests.swift */; };
+		8377515D1F9A640900B3A6E6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377515C1F9A640900B3A6E6 /* Reachability.swift */; };
+		8383498E1FB21DC9006840BB /* ArticleVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383498D1FB21DC8006840BB /* ArticleVCExtension.swift */; };
+		839C6B4C1FA0BC1800D69D05 /* ArticleObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839C6B4B1FA0BC1800D69D05 /* ArticleObj.swift */; };
+		83AFAED71FA6F0C800D9373E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837751371F9A5C5900B3A6E6 /* Assets.xcassets */; };
+		83E9C0831FBB4E9900E80887 /* ArticleCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E9C0821FBB4E9900E80887 /* ArticleCellView.swift */; };
+		83E9C0851FBB4EBF00E80887 /* ArticleCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83E9C0841FBB4EBF00E80887 /* ArticleCellView.xib */; };
+		83FF48141FA8E63200612BFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837751301F9A5C5900B3A6E6 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		837751421F9A5C5900B3A6E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837751251F9A5C5900B3A6E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8377512C1F9A5C5900B3A6E6;
+			remoteInfo = GreenCommerce4.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		832D7E9C1FA8CF8E00487FA1 /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
+		83373C3C1F9E399C00F6E1EA /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		83373C3E1F9F987500F6E1EA /* MainMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
+		833A31021FBA37BB005A32E9 /* UserProfileAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileAvatar.swift; sourceTree = "<group>"; };
+		8343300E1FAA298E00967FAE /* LeftMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuVC.swift; sourceTree = "<group>"; };
+		834330101FAA29DC00967FAE /* LeftMenuVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuVCExtension.swift; sourceTree = "<group>"; };
+		834330121FABA15A00967FAE /* ArticleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleVC.swift; sourceTree = "<group>"; };
+		834330131FABA15A00967FAE /* ArticleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleVC.xib; sourceTree = "<group>"; };
+		8377512D1F9A5C5900B3A6E6 /* GreenCommerce4.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenCommerce4.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		837751301F9A5C5900B3A6E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = GreenCommerce4.0/Support/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		837751321F9A5C5900B3A6E6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		837751351F9A5C5900B3A6E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		837751371F9A5C5900B3A6E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8377513A1F9A5C5900B3A6E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8377513C1F9A5C5900B3A6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/perriott/Library/Autosave Information/GreenCommerce4.0/GreenCommerce4.0/Support/Info.plist"; sourceTree = "<absolute>"; };
+		837751411F9A5C5900B3A6E6 /* GreenCommerce4.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenCommerce4.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		837751451F9A5C5900B3A6E6 /* GreenCommerce4_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCommerce4_0Tests.swift; sourceTree = "<group>"; };
+		837751471F9A5C5900B3A6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8377515C1F9A640900B3A6E6 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		8383498D1FB21DC8006840BB /* ArticleVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleVCExtension.swift; sourceTree = "<group>"; };
+		839C6B4B1FA0BC1800D69D05 /* ArticleObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleObj.swift; sourceTree = "<group>"; };
+		83E9C0821FBB4E9900E80887 /* ArticleCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCellView.swift; sourceTree = "<group>"; };
+		83E9C0841FBB4EBF00E80887 /* ArticleCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleCellView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8377512A1F9A5C5900B3A6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8377513E1F9A5C5900B3A6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		832D7E9A1FA8CE5500487FA1 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				832D7E9B1FA8CF8E00487FA1 /* SSASideMenu */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		832D7E9B1FA8CF8E00487FA1 /* SSASideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				832D7E9C1FA8CF8E00487FA1 /* SSASideMenu.swift */,
+			);
+			path = SSASideMenu;
+			sourceTree = "<group>";
+		};
+		8343300D1FAA292C00967FAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				834330101FAA29DC00967FAE /* LeftMenuVCExtension.swift */,
+				8383498D1FB21DC8006840BB /* ArticleVCExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		837751241F9A5C5900B3A6E6 = {
+			isa = PBXGroup;
+			children = (
+				8377512F1F9A5C5900B3A6E6 /* GreenCommerce4.0 */,
+				837751441F9A5C5900B3A6E6 /* GreenCommerce4.0Tests */,
+				8377512E1F9A5C5900B3A6E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8377512E1F9A5C5900B3A6E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8377512D1F9A5C5900B3A6E6 /* GreenCommerce4.0.app */,
+				837751411F9A5C5900B3A6E6 /* GreenCommerce4.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8377512F1F9A5C5900B3A6E6 /* GreenCommerce4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				8343300D1FAA292C00967FAE /* Extensions */,
+				832D7E9A1FA8CE5500487FA1 /* Vendor */,
+				837751541F9A5CB900B3A6E6 /* Support */,
+				837751531F9A5C9E00B3A6E6 /* Views */,
+				837751521F9A5C9400B3A6E6 /* Controllers */,
+				837751511F9A5C8100B3A6E6 /* Models */,
+				837751501F9A5C6F00B3A6E6 /* Networking */,
+			);
+			path = GreenCommerce4.0;
+			sourceTree = "<group>";
+		};
+		837751441F9A5C5900B3A6E6 /* GreenCommerce4.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				837751451F9A5C5900B3A6E6 /* GreenCommerce4_0Tests.swift */,
+				837751471F9A5C5900B3A6E6 /* Info.plist */,
+			);
+			path = GreenCommerce4.0Tests;
+			sourceTree = "<group>";
+		};
+		837751501F9A5C6F00B3A6E6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8377515C1F9A640900B3A6E6 /* Reachability.swift */,
+				83373C3C1F9E399C00F6E1EA /* APIHandler.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		837751511F9A5C8100B3A6E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				839C6B4B1FA0BC1800D69D05 /* ArticleObj.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		837751521F9A5C9400B3A6E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				837751321F9A5C5900B3A6E6 /* BaseViewController.swift */,
+				83373C3E1F9F987500F6E1EA /* MainMenuVC.swift */,
+				8343300E1FAA298E00967FAE /* LeftMenuVC.swift */,
+				834330121FABA15A00967FAE /* ArticleVC.swift */,
+				834330131FABA15A00967FAE /* ArticleVC.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		837751531F9A5C9E00B3A6E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				833A31021FBA37BB005A32E9 /* UserProfileAvatar.swift */,
+				83E9C0821FBB4E9900E80887 /* ArticleCellView.swift */,
+				83E9C0841FBB4EBF00E80887 /* ArticleCellView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		837751541F9A5CB900B3A6E6 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				837751301F9A5C5900B3A6E6 /* AppDelegate.swift */,
+				837751341F9A5C5900B3A6E6 /* Main.storyboard */,
+				837751371F9A5C5900B3A6E6 /* Assets.xcassets */,
+				837751391F9A5C5900B3A6E6 /* LaunchScreen.storyboard */,
+				8377513C1F9A5C5900B3A6E6 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8377512C1F9A5C5900B3A6E6 /* GreenCommerce4.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8377514A1F9A5C5900B3A6E6 /* Build configuration list for PBXNativeTarget "GreenCommerce4.0" */;
+			buildPhases = (
+				837751291F9A5C5900B3A6E6 /* Sources */,
+				8377512A1F9A5C5900B3A6E6 /* Frameworks */,
+				8377512B1F9A5C5900B3A6E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenCommerce4.0;
+			productName = GreenCommerce4.0;
+			productReference = 8377512D1F9A5C5900B3A6E6 /* GreenCommerce4.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		837751401F9A5C5900B3A6E6 /* GreenCommerce4.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8377514D1F9A5C5900B3A6E6 /* Build configuration list for PBXNativeTarget "GreenCommerce4.0Tests" */;
+			buildPhases = (
+				8377513D1F9A5C5900B3A6E6 /* Sources */,
+				8377513E1F9A5C5900B3A6E6 /* Frameworks */,
+				8377513F1F9A5C5900B3A6E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837751431F9A5C5900B3A6E6 /* PBXTargetDependency */,
+			);
+			name = GreenCommerce4.0Tests;
+			productName = GreenCommerce4.0Tests;
+			productReference = 837751411F9A5C5900B3A6E6 /* GreenCommerce4.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		837751251F9A5C5900B3A6E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Preston Perriott";
+				TargetAttributes = {
+					8377512C1F9A5C5900B3A6E6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					837751401F9A5C5900B3A6E6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8377512C1F9A5C5900B3A6E6;
+					};
+				};
+			};
+			buildConfigurationList = 837751281F9A5C5900B3A6E6 /* Build configuration list for PBXProject "GreenCommerce4.0" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 837751241F9A5C5900B3A6E6;
+			productRefGroup = 8377512E1F9A5C5900B3A6E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8377512C1F9A5C5900B3A6E6 /* GreenCommerce4.0 */,
+				837751401F9A5C5900B3A6E6 /* GreenCommerce4.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8377512B1F9A5C5900B3A6E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83AFAED71FA6F0C800D9373E /* Assets.xcassets in Resources */,
+				83E9C0851FBB4EBF00E80887 /* ArticleCellView.xib in Resources */,
+				83373C381F9BF33500F6E1EA /* Main.storyboard in Resources */,
+				834330151FABA15A00967FAE /* ArticleVC.xib in Resources */,
+				83373C3A1F9BF33500F6E1EA /* LaunchScreen.storyboard in Resources */,
+				83373C3B1F9BF33500F6E1EA /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8377513F1F9A5C5900B3A6E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		837751291F9A5C5900B3A6E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FF48141FA8E63200612BFA /* AppDelegate.swift in Sources */,
+				837751331F9A5C5900B3A6E6 /* BaseViewController.swift in Sources */,
+				8383498E1FB21DC9006840BB /* ArticleVCExtension.swift in Sources */,
+				83373C3F1F9F987500F6E1EA /* MainMenuVC.swift in Sources */,
+				832D7E9D1FA8CF8F00487FA1 /* SSASideMenu.swift in Sources */,
+				833A31031FBA37BB005A32E9 /* UserProfileAvatar.swift in Sources */,
+				83E9C0831FBB4E9900E80887 /* ArticleCellView.swift in Sources */,
+				8343300F1FAA298E00967FAE /* LeftMenuVC.swift in Sources */,
+				839C6B4C1FA0BC1800D69D05 /* ArticleObj.swift in Sources */,
+				8377515D1F9A640900B3A6E6 /* Reachability.swift in Sources */,
+				834330111FAA29DC00967FAE /* LeftMenuVCExtension.swift in Sources */,
+				83373C3D1F9E399C00F6E1EA /* APIHandler.swift in Sources */,
+				834330141FABA15A00967FAE /* ArticleVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8377513D1F9A5C5900B3A6E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837751461F9A5C5900B3A6E6 /* GreenCommerce4_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		837751431F9A5C5900B3A6E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8377512C1F9A5C5900B3A6E6 /* GreenCommerce4.0 */;
+			targetProxy = 837751421F9A5C5900B3A6E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		837751341F9A5C5900B3A6E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				837751351F9A5C5900B3A6E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		837751391F9A5C5900B3A6E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8377513A1F9A5C5900B3A6E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		837751481F9A5C5900B3A6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		837751491F9A5C5900B3A6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8377514B1F9A5C5900B3A6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65GNST43XC;
+				INFOPLIST_FILE = "$(SRCROOT)/GreenCommerce4.0/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "perriott.llc.GreenCommerce4-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8377514C1F9A5C5900B3A6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65GNST43XC;
+				INFOPLIST_FILE = "$(SRCROOT)/GreenCommerce4.0/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "perriott.llc.GreenCommerce4-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8377514E1F9A5C5900B3A6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65GNST43XC;
+				INFOPLIST_FILE = GreenCommerce4.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "perriott.llc.GreenCommerce4-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenCommerce4.0.app/GreenCommerce4.0";
+			};
+			name = Debug;
+		};
+		8377514F1F9A5C5900B3A6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65GNST43XC;
+				INFOPLIST_FILE = GreenCommerce4.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "perriott.llc.GreenCommerce4-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenCommerce4.0.app/GreenCommerce4.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		837751281F9A5C5900B3A6E6 /* Build configuration list for PBXProject "GreenCommerce4.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837751481F9A5C5900B3A6E6 /* Debug */,
+				837751491F9A5C5900B3A6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8377514A1F9A5C5900B3A6E6 /* Build configuration list for PBXNativeTarget "GreenCommerce4.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8377514B1F9A5C5900B3A6E6 /* Debug */,
+				8377514C1F9A5C5900B3A6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8377514D1F9A5C5900B3A6E6 /* Build configuration list for PBXNativeTarget "GreenCommerce4.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8377514E1F9A5C5900B3A6E6 /* Debug */,
+				8377514F1F9A5C5900B3A6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 837751251F9A5C5900B3A6E6 /* Project object */;
+}
