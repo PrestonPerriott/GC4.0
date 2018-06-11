@@ -31,9 +31,13 @@ class MainMenuVC: BaseViewController {
     var contraint: NSLayoutConstraint? = NSLayoutConstraint()
     var emailconstraint: NSLayoutConstraint? = NSLayoutConstraint()
     var nameConstraint: NSLayoutConstraint? = NSLayoutConstraint()
+    var request: APIHandler? = APIHandler()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        nodePost()
         
     navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Left", style: .plain, target: self, action: #selector(SSASideMenu.presentLeftMenuViewController))
         
@@ -65,7 +69,6 @@ class MainMenuVC: BaseViewController {
         nameTF?.layer.cornerRadius = 5
         tfView?.layer.cornerRadius = 5
         submitButton?.layer.cornerRadius = 5
-        
         
         submitButton?.addTarget(self, action: #selector(handleSubmit), for: .touchUpInside)
         
@@ -99,5 +102,8 @@ class MainMenuVC: BaseViewController {
     }
     @objc func handleSubmit(){
         print("Pressed")
+    }
+    @objc func nodePost (){
+        request?.getFromNodeservice(requestString: "")
     }
 }

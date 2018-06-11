@@ -10,7 +10,6 @@
 		832D7E9D1FA8CF8F00487FA1 /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832D7E9C1FA8CF8E00487FA1 /* SSASideMenu.swift */; };
 		83373C381F9BF33500F6E1EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837751341F9A5C5900B3A6E6 /* Main.storyboard */; };
 		83373C3A1F9BF33500F6E1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837751391F9A5C5900B3A6E6 /* LaunchScreen.storyboard */; };
-		83373C3B1F9BF33500F6E1EA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8377513C1F9A5C5900B3A6E6 /* Info.plist */; };
 		83373C3D1F9E399C00F6E1EA /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83373C3C1F9E399C00F6E1EA /* APIHandler.swift */; };
 		83373C3F1F9F987500F6E1EA /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83373C3E1F9F987500F6E1EA /* MainMenuVC.swift */; };
 		833A31031FBA37BB005A32E9 /* UserProfileAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A31021FBA37BB005A32E9 /* UserProfileAvatar.swift */; };
@@ -54,7 +53,7 @@
 		837751351F9A5C5900B3A6E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		837751371F9A5C5900B3A6E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8377513A1F9A5C5900B3A6E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8377513C1F9A5C5900B3A6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/perriott/Library/Autosave Information/GreenCommerce4.0/GreenCommerce4.0/Support/Info.plist"; sourceTree = "<absolute>"; };
+		8377513C1F9A5C5900B3A6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/preston/Desktop/GitHubProjects/swift-green-commerce/GC4.0/GreenCommerce4.0/Support/Info.plist"; sourceTree = "<absolute>"; };
 		837751411F9A5C5900B3A6E6 /* GreenCommerce4.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenCommerce4.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		837751451F9A5C5900B3A6E6 /* GreenCommerce4_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCommerce4_0Tests.swift; sourceTree = "<group>"; };
 		837751471F9A5C5900B3A6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -245,7 +244,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Preston Perriott";
 				TargetAttributes = {
 					8377512C1F9A5C5900B3A6E6 = {
@@ -288,7 +287,6 @@
 				83373C381F9BF33500F6E1EA /* Main.storyboard in Resources */,
 				834330151FABA15A00967FAE /* ArticleVC.xib in Resources */,
 				83373C3A1F9BF33500F6E1EA /* LaunchScreen.storyboard in Resources */,
-				83373C3B1F9BF33500F6E1EA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +372,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -381,6 +380,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -431,6 +431,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -438,6 +439,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -473,7 +475,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65GNST43XC;
+				DEVELOPMENT_TEAM = E9DR4Q658S;
 				INFOPLIST_FILE = "$(SRCROOT)/GreenCommerce4.0/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -491,7 +493,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65GNST43XC;
+				DEVELOPMENT_TEAM = E9DR4Q658S;
 				INFOPLIST_FILE = "$(SRCROOT)/GreenCommerce4.0/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

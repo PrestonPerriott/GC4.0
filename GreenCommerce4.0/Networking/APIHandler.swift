@@ -31,6 +31,9 @@ class APIHandler: NSObject {
     
     let CIndustryBaseURL = "https://www.cannabisindustryjournal.com/"
     
+    let localHost = "localhost:"
+    let port = "3000/users/mobile"
+    
     //Will probably need a computed value to tell us which end point to append
     /*
      
@@ -52,13 +55,18 @@ class APIHandler: NSObject {
         
         //The "in" keyword is how we pass the params into the block, alternatives are $0, $1
         session.dataTask(with: request as URLRequest)
-        { (data, response, error) -> Void in
+        {
+            (data, response, error) -> Void in
             if let data = data {
-                let json = try? JSONSerialization.jsonObject(with: data, options: [])
-                if let response = response as? HTTPURLResponse, 200...299 ~= response.statusCode {
-                    completion(true, json as AnyObject)
+                if let json = try? JSONSerialization.jsonObject(with: data, options: [])
+                    {
+                    print("The JSON Object recieved was : \(String(describing: json) )")
+                    DispatchQueue.main.async() {
+                        completion(true, json as AnyObject)
+                    }
                 } else {
-                    completion(false, json as AnyObject)
+                    print("Our errors from the request were : \(String(describing: error))")
+                    completion(false, response as AnyObject)
                 }
             }
             }.resume()
@@ -79,6 +87,18 @@ class APIHandler: NSObject {
     private func get(request: NSMutableURLRequest, completion: @escaping (_ success: Bool, _ object: AnyObject?)->()){
         
         dataTask(request: request, method: "GET", completion: completion)
+    }
+    
+    func getFromNodeservice(requestString: String){
+        let baseroute: String = localHost + port
+        if let baseUrl = URL(string: baseroute) {
+        let request: NSMutableURLRequest = NSMutableURLRequest(url: baseUrl)
+            get(request: request, completion: {(ok, obj) in
+                print("Our object is \(String(describing: obj))")
+            })
+      
+        }
+        
     }
     
 }
